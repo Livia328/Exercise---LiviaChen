@@ -17,15 +17,24 @@
 ### Solution:
 In this problem, I will use graphical method to achieve. 
   
-First, we could plotting the region satisfies all the constraints.
+First, we could plotting the region satisfies all the constraints, shown as quadrilateral ABCD.
+
+![This is an image](/asserts/partI.pic.jpg)
   
 We could change equation (a) to this format:
   
   
-             Z = -3X1 + X2 
-          -> X2 = 3X1 + Z
+             (a) Z = -3X1 + X2 
+           
+          -> (e) X2 = 3X1 + Z
   
-The coefficient of this equation is 3 and the intersection of this function and the X2-axis is the value of Z.
+The coefficient of this equation is 3 and the intersection of this function(e) and X2-axis is the value of Z.
+  
+Moving fuction(e) inside the the constrained area, when X1 = 4, X2 = 0, Z reaches it's MIN value, which is -12.
+  
+Therefore, the optimal solution is :
+  
+X1 = 4,  X2 = 0, Z = -12
 
   
 
