@@ -111,7 +111,7 @@ public class LPObject {
 			for (int j = 0; j < constraints.size() && feasible; j++) {
 				if(!constraints.get(j).isSatisfiedBy(points.get(i))) {
 					feasible=false;
-					// System.out.println("Discarding point "+points.get(i).toString()+" because of constraint "+constraints.get(j).toString());
+					System.out.println("Discarding point "+points.get(i).toString()+" because of constraint "+constraints.get(j).id);
 					points.remove(i);
 					i--;
 				}
