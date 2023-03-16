@@ -60,7 +60,9 @@ Therefore, the steps are:
 4. Delete points obtained from step 3 that do not meet all constraints. For example, in this question, we will discard (0, 30) and (44, 0) because (0, 30) does not meet the constraint `2.5X1 + 5X2 <= 110`, and (44, 0) does not meet the constraint `15X1 + 10X2 <= 300`.
 5. Get the optimum point from the feasible points.
 
-**Note:** Please make sure to use proper markdown syntax for headings, lists, and text formatting.
+
+
+## Part II: System
 
 
 
