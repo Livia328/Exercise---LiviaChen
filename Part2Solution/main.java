@@ -8,8 +8,10 @@ public class main {
         test1.addConstraint(c1);
         test1.addConstraint(c2);
         Point res = test1.giveOptimumPoint();
-        System.out.println("x1 = " + res.x + "x2 = " + res.y);
-        double optimalRes = test1.x1Coefficient * res.x + test1.x2Coefficient * res.y;
-        System.out.println(test1.type + optimalRes);
+        System.out.println("---------------optimal solution----------------");
+        System.out.println("x1 = " + res.x);
+        System.out.println("x2 = " + res.y);
+        double op = test1.x1Coefficient * res.x + test1.x2Coefficient * res.y;
+        System.out.println(test1.type + " = " +op);
     }
 }

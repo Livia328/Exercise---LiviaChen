@@ -36,6 +36,7 @@ Therefore, the optimal solution is :
   
 X1 = 4,  X2 = 0, Z = -12
 
-  
+## Part II:  Programming
+
 
 
