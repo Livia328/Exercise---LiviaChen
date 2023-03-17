@@ -63,6 +63,31 @@ Therefore, the steps are:
 
 
 ## Part II: System
+### What type of database would you choose? Why?
+In this case, I use mySQL because it is a widely-used relational database management system that is well-suited for handling structured data.
+  
+Besides, given the requirement for sub-millisecond latency, I would also consider using an extra in-memory database like Redis or Memcached to achieve faster speed in storing and retrieving data.
+
+### Assume your target user audience are all math students in the US. How would you size your database accordingly? What strategies would you consider to prevent overloading a single database instance with requests?
+1. To size the database, we could consider the following factors:
+    * the expected number of users
+    * the amount of data being 
+    * the frequency of database access
+2. Strategies considered to prevent overloading
+    * Database sharidng: We could split a large database into smaller, more manageable parts, with each part being hosted on a separate server. This allows for more efficient database access and reduces the risk of overload on a single instance.
+    * load balancer: Load balancer can monitor the performance of each instance and route requests to the most available and efficient instance. This can help ensure that the database can handle a large number of requests without being overwhelmed.
+    * cache: We could use cache to store frequently accessed data, to reduce the number of requests made to the database and improve performance.
+
+### Did you set up your database locally or on cloud infrastructure?
+I set the mySQL database locally
+
+## Part IV: Conclusion and Futher Todo
+Hi, this is Kexuan and I am thrilled to apply for the SDE intern position at Shelly Xu Design. I am happy to participate in the technical exercise part and have done my best to meet the requirements. However, due to time constraints, I was unable to present a detailed javadoc in part 3 and there are many rooms for improvement.Moving forward, I have a few ideas for how to further enhance the project.
+
+1. Using Redis to realize high query speed and prevent overloading
+2. Writing front end UI and integated front end and backend
+
+Thank you for taking the time to review my work.
 
 
 
