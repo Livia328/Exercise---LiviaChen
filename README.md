@@ -1,4 +1,4 @@
-# Exercise---Livia
+# SXD Software Engineer Intern Exercise
 ## Part I: Math
 ### Question:
 >Consider the following problem:
