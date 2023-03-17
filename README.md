@@ -82,7 +82,7 @@ Besides, given the requirement for sub-millisecond latency, I would also conside
 I set the mySQL database locally
 
 ## Part IV: Conclusion and Futher Todo
-Hi, this is Kexuan and I am thrilled to apply for the SDE intern position at Shelly Xu Design. I am happy to participate in the technical exercise part and have done my best to meet the requirements. However, due to time constraints, I was unable to present a detailed javadoc in part 3 and there are many rooms for improvement.Moving forward, I have a few ideas for how to further enhance the project.
+Hi, this is Kexuan and I am thrilled to apply for the SDE intern position at Shelly Xu Design and I have done my best to meet the requirements. However, due to time constraints, I was unable to present a detailed javadoc in part 3 and there are many rooms for improvement.Moving forward, I have a few ideas for how to further enhance the project.
 
 1. Using Redis to realize high query speed and prevent overloading
 2. Writing front end UI and integated front end and backend
